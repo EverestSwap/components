@@ -18,7 +18,8 @@ export function isAddress(value: any): string | false {
 }
 
 const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  552: CHAINS[ChainId.ICE_ARCTIC].blockExplorerUrls![0],
+  553: CHAINS[ChainId.ICE_ARCTIC].blockExplorerUrls![0],
+  552: CHAINS[ChainId.ICE_SNOW].blockExplorerUrls![0],
   550: CHAINS[ChainId.ICE_MAINNET].blockExplorerUrls![0],
 };
 
@@ -27,7 +28,7 @@ export function getEtherscanLink(
   data: string,
   type: 'transaction' | 'token' | 'address' | 'block',
 ): string {
-  const prefix = `${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[550]}`;
+  const prefix = `${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[552]}`;
 
   switch (type) {
     case 'transaction': {

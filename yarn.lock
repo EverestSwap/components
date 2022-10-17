@@ -1606,10 +1606,10 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@everestswap/sdk@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@everestswap/sdk/-/sdk-0.2.5.tgz#07efa178ffbfba4764eeb360b16acef71d7a1dce"
-  integrity sha512-bJbYbuJV2ChaIOSrKxboQqowPIBCV1lNBXtUP2I1H2t1c1Dr9uaebkXnMbacLLAU4H61ClFss98u4Q+rIbSMiQ==
+"@everestswap/sdk@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@everestswap/sdk/-/sdk-0.3.0.tgz#f006ee5efb63e14111d751cef8bc73dbaabd951f"
+  integrity sha512-xwjOEH6ifyACordQ3ECdePAKKNDDBYc5w3ww3CkroT1g72Dgbcfg3kklID06N8/zRc7KWRw4bvAny7Ax+E2Zhw==
   dependencies:
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
